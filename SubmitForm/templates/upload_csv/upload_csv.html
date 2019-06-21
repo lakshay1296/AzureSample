@@ -1,0 +1,21 @@
+<html>
+
+<title>CSV UPLOAD</title>
+
+<body>
+    <div>
+            <h1>CSV was uploaded successfully</h1>
+
+            {% for i in content %}
+                <p>{{ i.vendorid }},
+                {{ i.firstname }},
+                {{ i.lastname }},
+                {{ i.phonenumber }},
+                {{ i.email }}</p>
+            {% endfor %}
+
+    </div>
+    
+</body>
+
+</html>
