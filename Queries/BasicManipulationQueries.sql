@@ -1,3 +1,5 @@
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'test@123';
+
 -- selecting databse
 use Test_DB;
 
